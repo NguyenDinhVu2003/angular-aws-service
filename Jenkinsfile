@@ -8,6 +8,7 @@ tools {
  environment {
     DOCKER_REGISTRY = "docker.io"
     DOCKERHUB_CREDENTIALS = credentials('DOCKER_HUB_CREDENTIAL')
+    GITHUB_TOKEN = credentials('github-token')
     VERSION = "${env.BUILD_ID}"
   }
 
